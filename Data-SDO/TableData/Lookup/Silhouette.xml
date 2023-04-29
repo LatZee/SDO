@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JA2Data>
+	<Silhouette>
+		<id>0</id>
+		<name>Vest</name>
+	</Silhouette>
+	<Silhouette>
+		<id>1</id>
+		<name>Right Thigh</name>
+	</Silhouette>
+	<Silhouette>
+		<id>2</id>
+		<name>Left Thigh</name>
+	</Silhouette>
+	<Silhouette>
+		<id>3</id>
+		<name>Backpack</name>
+	</Silhouette>
+	<Silhouette>
+		<id>4</id>
+		<name>Combat Pack</name>
+	</Silhouette>
+	<Silhouette>
+		<id>5</id>
+		<name>Gun</name>
+	</Silhouette>
+	<Silhouette>
+		<id>6</id>
+		<name>Rocket Launcher</name>
+	</Silhouette>
+	<Silhouette>
+		<id>7</id>
+		<name>Big Bag</name>
+	</Silhouette>
+	<Silhouette>
+		<id>8</id>
+		<name>Medium Bag</name>
+	</Silhouette>
+	<Silhouette>
+		<id>9</id>
+		<name>SMG</name>
+	</Silhouette>
+	<Silhouette>
+		<id>10</id>
+		<name>Explosive</name>
+	</Silhouette>
+	<Silhouette>
+		<id>11</id>
+		<name>Knife</name>
+	</Silhouette>
+	<Silhouette>
+		<id>12</id>
+		<name>Small Bag</name>
+	</Silhouette>
+	<Silhouette>
+		<id>13</id>
+		<name>Pistol</name>
+	</Silhouette>
+	<Silhouette>
+		<id>14</id>
+		<name>GL Grenade</name>
+	</Silhouette>
+	<Silhouette>
+		<id>15</id>
+		<name>Hand Grenade</name>
+	</Silhouette>
+	<Silhouette>
+		<id>16</id>
+		<name>Pistol Ammo</name>
+	</Silhouette>
+	<Silhouette>
+		<id>17</id>
+		<name>SMG Ammo</name>
+	</Silhouette>
+	<Silhouette>
+		<id>18</id>
+		<name>Rifle Ammo</name>
+	</Silhouette>
+	<Silhouette>
+		<id>19</id>
+		<name>Large Ammo</name>
+	</Silhouette>
+	<Silhouette>
+		<id>20</id>
+		<name>Shirt Pocket</name>
+	</Silhouette>
+	<Silhouette>
+		<id>21</id>
+		<name>Belt Clip</name>
+	</Silhouette>
+	<Silhouette>
+		<id>22</id>
+		<name>Huge/Belt Ammo</name>
+	</Silhouette>
+	<Silhouette>
+		<id>23</id>
+		<name>Revolver Ammo</name>
+	</Silhouette>
+	<Silhouette>
+		<id>24</id>
+		<name>Large Medical Cross</name>
+	</Silhouette>
+	<Silhouette>
+		<id>25</id>
+		<name>Small Medical Cross</name>
+	</Silhouette>	
+	<Silhouette>
+		<id>26</id>
+		<name>Machine Gun</name>
+	</Silhouette>
+	<Silhouette>
+		<id>27</id>
+		<name>Backpack</name>
+	</Silhouette>
+	<Silhouette>
+		<id>28</id>
+		<name>Backpack with Shell</name>
+	</Silhouette>
+	<Silhouette>
+		<id>29</id>
+		<name>Medium Bag with Shell</name>
+	</Silhouette>
+	<Silhouette>
+		<id>30</id>
+		<name>Carbine Assault Rifle</name>
+	</Silhouette>
+	<Silhouette>
+		<id>31</id>
+		<name>Broad Medium Bag</name>
+	</Silhouette>
+	<Silhouette>
+		<id>32</id>
+		<name>Medium Bag</name>
+	</Silhouette>
+	<Silhouette>
+		<id>33</id>
+		<name>Shovel</name>
+	</Silhouette>	
+	<Silhouette>
+		<id>34</id>
+		<name>2 Loops</name>
+	</Silhouette>
+	<Silhouette>
+		<id>35</id>
+		<name>Carbiner Ring</name>
+	</Silhouette>	
+	<Silhouette>
+		<id>36</id>
+		<name>Small Bag</name>
+	</Silhouette>
+	<Silhouette>
+		<id>37</id>
+		<name>Tiny Bag</name>
+	</Silhouette>
+	<Silhouette>
+		<id>38</id>
+		<name>Shirt Pocket</name>
+	</Silhouette>
+	<Silhouette>
+		<id>39</id>
+		<name>Bottle</name>
+	</Silhouette>	
+	<Silhouette>
+		<id>40</id>
+		<name>Tiny Bag with Medical Cross</name>
+	</Silhouette>
+	<Silhouette>
+		<id>41</id>
+		<name>Medical Cross with Syringe</name>
+	</Silhouette>
+	<Silhouette>
+		<id>42</id>
+		<name>Mortar</name>
+	</Silhouette>
+	<Silhouette>
+		<id>43</id>
+		<name>Battle Rifle</name>
+	</Silhouette>	
+	<Silhouette>
+		<id>44</id>
+		<name>Sniper Rifle</name>
+	</Silhouette>
+	<Silhouette>
+		<id>45</id>
+		<name>Carbine Assault Rifle</name>
+	</Silhouette>	
+	<Silhouette>
+		<id>46</id>
+		<name>Machine Pistol</name>
+	</Silhouette>
+	<Silhouette>
+		<id>47</id>
+		<name>Single SMG Magazine</name>
+	</Silhouette>
+	<Silhouette>
+		<id>48</id>
+		<name>Single SMG Magazine</name>
+	</Silhouette>
+	<Silhouette>
+		<id>49</id>
+		<name>Short Shotgun</name>
+	</Silhouette>	
+	<Silhouette>
+		<id>50</id>
+		<name>4 Shotshells</name>
+	</Silhouette>
+	<Silhouette>
+		<id>51</id>
+		<name>Large Pistol</name>
+	</Silhouette>
+	<Silhouette>
+		<id>52</id>
+		<name>Pistol with Suppressor</name>
+	</Silhouette>	
+	<Silhouette>
+		<id>53</id>
+		<name>Large Revolver</name>
+	</Silhouette>
+	<Silhouette>
+		<id>54</id>
+		<name>Revolver</name>
+	</Silhouette>
+	<Silhouette>
+		<id>55</id>
+		<name>3 Speedloader</name>
+	</Silhouette>
+	<Silhouette>
+		<id>56</id>
+		<name>Speedloader</name>
+	</Silhouette>
+	<Silhouette>
+		<id>57</id>
+		<name>Pistol</name>
+	</Silhouette>
+	<Silhouette>
+		<id>58</id>
+		<name>Knife</name>
+	</Silhouette>
+	<Silhouette>
+		<id>59</id>
+		<name>3 Throwing Knives</name>
+	</Silhouette>
+	<Silhouette>
+		<id>60</id>
+		<name>Dynamite</name>
+	</Silhouette>		
+	<Silhouette>
+		<id>61</id>
+		<name>3 Rifle Grenades (turned)</name>
+	</Silhouette>	
+	<Silhouette>
+		<id>62</id>
+		<name>2 Rifle Grenades (turned)</name>
+	</Silhouette>
+	<Silhouette>
+		<id>63</id>
+		<name>Rifle Grenade (turned)</name>
+	</Silhouette>
+	<Silhouette>
+		<id>64</id>
+		<name>Flashbang Grenade</name>
+	</Silhouette>
+	<Silhouette>
+		<id>65</id>
+		<name>2 Hand Grenades</name>
+	</Silhouette>
+	<Silhouette>
+		<id>66</id>
+		<name>Hand Grenade</name>
+	</Silhouette>
+	<Silhouette>
+		<id>67</id>
+		<name>Large MG Belt Box</name>
+	</Silhouette>
+	<Silhouette>
+		<id>68</id>
+		<name>Large MG Belt Box</name>
+	</Silhouette>
+	<Silhouette>
+		<id>69</id>
+		<name>Large MG Belt Box</name>
+	</Silhouette>
+	<Silhouette>
+		<id>70</id>
+		<name>MG Belt</name>
+	</Silhouette>	
+	<Silhouette>
+		<id>71</id>
+		<name>2 RPK Magazines with Pouch</name>
+	</Silhouette>	
+	<Silhouette>
+		<id>72</id>
+		<name>2 RPK Magazines</name>
+	</Silhouette>
+	<Silhouette>
+		<id>73</id>
+		<name>2 P90 Magazines</name>
+	</Silhouette>
+	<Silhouette>
+		<id>74</id>
+		<name>P90 Magazine</name>
+	</Silhouette>
+	<Silhouette>
+		<id>75</id>
+		<name>3 AR Magazines with Pouch</name>
+	</Silhouette>
+	<Silhouette>
+		<id>76</id>
+		<name>3 AR Magazines</name>
+	</Silhouette>
+	<Silhouette>
+		<id>77</id>
+		<name>2 AR Magazines with Pouch</name>
+	</Silhouette>
+	<Silhouette>
+		<id>78</id>
+		<name>2 AR Magazines</name>
+	</Silhouette>
+	<Silhouette>
+		<id>79</id>
+		<name>2 Curved AK Magazines with Pouch</name>
+	</Silhouette>
+	<Silhouette>
+		<id>80</id>
+		<name>2 Curved AK Magazines</name>
+	</Silhouette>	
+	<Silhouette>
+		<id>81</id>
+		<name>4 Sniper Rifle Magazines with Pouch</name>
+	</Silhouette>	
+	<Silhouette>
+		<id>82</id>
+		<name>4 Sniper Rifle Magazines</name>
+	</Silhouette>
+	<Silhouette>
+		<id>83</id>
+		<name>2 Sniper Rifle Magazines Pairs</name>
+	</Silhouette>
+	<Silhouette>
+		<id>84</id>
+		<name>2 Sniper Rifle Magazines</name>
+	</Silhouette>
+	<Silhouette>
+		<id>85</id>
+		<name>3 SMG Magazines with Pouch</name>
+	</Silhouette>
+	<Silhouette>
+		<id>86</id>
+		<name>3 SMG Magazines</name>
+	</Silhouette>
+	<Silhouette>
+		<id>87</id>
+		<name>Rifle Cartridges and Shotshells</name>
+	</Silhouette>
+	<Silhouette>
+		<id>88</id>
+		<name>3 Pistol Magazines</name>
+	</Silhouette>
+	<Silhouette>
+		<id>89</id>
+		<name>2 Pistol Magazines</name>
+	</Silhouette>
+	<Silhouette>
+		<id>90</id>
+		<name>Pistol Magazine</name>
+	</Silhouette>
+	<Silhouette>
+		<id>91</id>
+		<name>Water Bladder</name>
+	</Silhouette>
+	<Silhouette>
+		<id>92</id>
+		<name>Rocket Launcher</name>
+	</Silhouette>	
+</JA2Data>

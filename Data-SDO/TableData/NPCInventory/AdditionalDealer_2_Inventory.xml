@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<INVENTORYLIST>
+	<!-- Shirts and pants -->
+	<INVENTORY>
+		<uiIndex>0</uiIndex>
+		<sItemIndex>1607</sItemIndex>
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>1</uiIndex>
+		<sItemIndex>1608</sItemIndex>
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>2</uiIndex>
+		<sItemIndex>1609</sItemIndex>
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>3</uiIndex>
+		<sItemIndex>1610</sItemIndex>
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>4</uiIndex>
+		<sItemIndex>1612</sItemIndex>
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>5</uiIndex>
+		<sItemIndex>1613</sItemIndex>
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>6</uiIndex>
+		<sItemIndex>1615</sItemIndex>
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>7</uiIndex>
+		<sItemIndex>1616</sItemIndex>
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>8</uiIndex>
+		<sItemIndex>1617</sItemIndex>
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>9</uiIndex>
+		<sItemIndex>1619</sItemIndex>
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>10</uiIndex>
+		<sItemIndex>1621</sItemIndex>
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>11</uiIndex>
+		<sItemIndex>1622</sItemIndex>
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>	
+	<!-- Leather and kinky stuff -->
+	<INVENTORY>
+		<uiIndex>12</uiIndex>
+		<sItemIndex>188</sItemIndex>
+		<ubOptimalNumber>7</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>13</uiIndex>
+		<sItemIndex>189</sItemIndex>
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>14</uiIndex>
+		<sItemIndex>190</sItemIndex>
+		<ubOptimalNumber>1</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>15</uiIndex>
+		<sItemIndex>191</sItemIndex>
+		<ubOptimalNumber>1</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>16</uiIndex>
+		<sItemIndex>1720</sItemIndex>
+		<ubOptimalNumber>5</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>17</uiIndex>
+		<sItemIndex>1625</sItemIndex>
+		<ubOptimalNumber>5</ubOptimalNumber>
+	</INVENTORY>	
+	<!-- Some basic LBE gear and belts -->	
+	<INVENTORY>
+		<uiIndex>18</uiIndex>
+		<sItemIndex>1090</sItemIndex> <!-- Lbe gear -->
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>19</uiIndex>
+		<sItemIndex>2271</sItemIndex> <!-- CovOps Vest -->
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>20</uiIndex>
+		<sItemIndex>2270</sItemIndex> <!-- Infiltration Vest -->
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>21</uiIndex>
+		<sItemIndex>1089</sItemIndex> <!-- Tac vest -->
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>	
+	<INVENTORY>
+		<uiIndex>22</uiIndex>
+		<sItemIndex>1079</sItemIndex> <!-- TAC-1A Vest -->
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>23</uiIndex>
+		<sItemIndex>1196</sItemIndex> <!-- TAC-1F Vest -->
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>	
+	<INVENTORY>
+		<uiIndex>24</uiIndex>
+		<sItemIndex>1082</sItemIndex> <!-- SAW pouch -->
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>25</uiIndex>
+		<sItemIndex>1091</sItemIndex> <!-- Pistol holster -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>26</uiIndex>
+		<sItemIndex>1093</sItemIndex> <!-- MP holster -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>27</uiIndex>
+		<sItemIndex>1642</sItemIndex> <!-- SG Holster -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>28</uiIndex>
+		<sItemIndex>1200</sItemIndex> <!-- R-Holster -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>29</uiIndex>
+		<sItemIndex>1081</sItemIndex> <!-- Double Mag -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>	
+	<INVENTORY>
+		<uiIndex>30</uiIndex>
+		<sItemIndex>1098</sItemIndex> <!-- Tactical Tailor 3-Day Pack -->
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>31</uiIndex>
+		<sItemIndex>1099</sItemIndex> <!-- Blackhawk Patrol Pack -->
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>32</uiIndex>
+		<sItemIndex>1649</sItemIndex> <!-- Thigh Rig -->
+		<ubOptimalNumber>2</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>33</uiIndex>
+		<sItemIndex>1709</sItemIndex> <!-- Sleeping Bag -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>	
+	<INVENTORY>
+		<uiIndex>34</uiIndex>
+		<sItemIndex>1525</sItemIndex> <!-- Rifle sling -->
+		<ubOptimalNumber>6</ubOptimalNumber>
+	</INVENTORY>	
+	<INVENTORY>
+		<uiIndex>35</uiIndex>
+		<sItemIndex>1184</sItemIndex> <!-- Camo Shirt -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>36</uiIndex>
+		<sItemIndex>2293</sItemIndex> <!-- Belt - SMG Magazines -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>37</uiIndex>
+		<sItemIndex>2291</sItemIndex> <!-- Belt-Revolvers -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>38</uiIndex>
+		<sItemIndex>2292</sItemIndex> <!-- Belt-Lrg Pistols -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>39</uiIndex>
+		<sItemIndex>2294</sItemIndex> <!-- Belt-AR Mags -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>40</uiIndex>
+		<sItemIndex>2295</sItemIndex> <!-- Belt-AK Mags -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>41</uiIndex>
+		<sItemIndex>2300</sItemIndex> <!-- Belt - Hand Grenades -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>42</uiIndex>
+		<sItemIndex>1695</sItemIndex> <!-- MLBE - Carabiner -->
+		<ubOptimalNumber>6</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>43</uiIndex>
+		<sItemIndex>1656</sItemIndex> <!-- MLBE - Canteen -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>44</uiIndex>
+		<sItemIndex>1658</sItemIndex> <!-- MLBE - 1st Aid -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>45</uiIndex>
+		<sItemIndex>1661</sItemIndex> <!-- MLBE - Explosives -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>46</uiIndex>
+		<sItemIndex>1662</sItemIndex> <!-- MLBE - Syringes -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>47</uiIndex>
+		<sItemIndex>1664</sItemIndex> <!-- MLBE - Small Pouch -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>48</uiIndex>
+		<sItemIndex>1678</sItemIndex> <!-- MLBE - Rifle Grenades -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>49</uiIndex>
+		<sItemIndex>1696</sItemIndex> <!-- MLBE - Grenades -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>50</uiIndex>
+		<sItemIndex>1710</sItemIndex> <!-- Surgical Mask -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	<INVENTORY>
+		<uiIndex>51</uiIndex>
+		<sItemIndex>1711</sItemIndex> <!-- Surgical Gloves -->
+		<ubOptimalNumber>4</ubOptimalNumber>
+	</INVENTORY>
+	
+</INVENTORYLIST>

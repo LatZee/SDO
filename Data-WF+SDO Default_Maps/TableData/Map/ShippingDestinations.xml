@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DESTINATIONLIST>
+<!--	
+    <DESTINATION>
+		<uiIndex>0</uiIndex>
+		<name>blank</name>
+		<ubMapX>0</ubMapX>
+		<ubMapY>0</ubMapY>
+		<ubMapZ>0</ubMapZ>
+		<sGridNo>0</sGridNo>		
+	</DESTINATION> -->
+	<DESTINATION>
+		<uiIndex>2</uiIndex>
+		<name>Drassen Airport</name>
+		<ubMapX>13</ubMapX>
+		<ubMapY>2</ubMapY>
+		<ubMapZ>0</ubMapZ>
+		<sGridNo>10112</sGridNo>		
+	</DESTINATION>
+	<DESTINATION>
+		<uiIndex>4</uiIndex>
+		<name>Grumm Harbor</name>
+		<ubMapX>2</ubMapX>
+		<ubMapY>6</ubMapY>
+		<ubMapZ>0</ubMapZ>
+		<sGridNo>14625</sGridNo>		
+	</DESTINATION>
+	<DESTINATION>
+		<uiIndex>6</uiIndex>
+		<name>Cambria Delivery Shop</name>
+		<ubMapX>9</ubMapX>
+		<ubMapY>7</ubMapY>
+		<ubMapZ>0</ubMapZ>
+		<sGridNo>10590</sGridNo>		
+	</DESTINATION>
+	<DESTINATION>
+		<uiIndex>11</uiIndex>
+		<name>Meduna Airport</name>
+		<ubMapX>3</ubMapX>
+		<ubMapY>14</ubMapY>
+		<ubMapZ>0</ubMapZ>
+		<sGridNo>13215</sGridNo>		
+	</DESTINATION>	
+	<DESTINATION>
+		<uiIndex>13</uiIndex>
+		<name>Palmas Harbor</name>
+		<ubMapX>9</ubMapX>
+		<ubMapY>15</ubMapY>
+		<ubMapZ>0</ubMapZ>
+		<sGridNo>10751</sGridNo>		
+	</DESTINATION>	
+</DESTINATIONLIST>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DELIVERYMETHODTABLE>
+	<DELIVERYMETHOD>
+		<uiIndex>0</uiIndex>
+		<description>Overnight Express</description>
+		<DESTINATIONDELIVERYINFOTABLE>
+			<!-- Drassen -->
+			<DESTINATIONDELIVERYINFO>	
+				<uiDestinationIndex>2</uiDestinationIndex>
+				<usDestinationFee>400</usDestinationFee>
+				<bDaysAhead>1</bDaysAhead>
+			</DESTINATIONDELIVERYINFO>
+			<!-- Grumm -->
+			<DESTINATIONDELIVERYINFO>	
+				<uiDestinationIndex>4</uiDestinationIndex>
+				<usDestinationFee>475</usDestinationFee>
+				<bDaysAhead>1</bDaysAhead>
+			</DESTINATIONDELIVERYINFO>
+			<!-- Cambria -->
+			<DESTINATIONDELIVERYINFO>	
+				<uiDestinationIndex>6</uiDestinationIndex>
+				<usDestinationFee>450</usDestinationFee>
+				<bDaysAhead>1</bDaysAhead>
+			</DESTINATIONDELIVERYINFO>	
+			<!-- Meduna -->
+			<DESTINATIONDELIVERYINFO>	
+				<uiDestinationIndex>11</uiDestinationIndex>
+				<usDestinationFee>600</usDestinationFee>
+				<bDaysAhead>1</bDaysAhead>
+			</DESTINATIONDELIVERYINFO>				
+			<!-- Palmas -->
+			<DESTINATIONDELIVERYINFO>	
+				<uiDestinationIndex>13</uiDestinationIndex>
+				<usDestinationFee>500</usDestinationFee>
+				<bDaysAhead>1</bDaysAhead>
+			</DESTINATIONDELIVERYINFO>			
+		</DESTINATIONDELIVERYINFOTABLE>
+	</DELIVERYMETHOD>
+	<DELIVERYMETHOD>
+		<uiIndex>1</uiIndex>
+		<description>2 Business Days</description>		
+		<DESTINATIONDELIVERYINFOTABLE>
+			<!-- Drassen -->
+			<DESTINATIONDELIVERYINFO>	
+				<uiDestinationIndex>2</uiDestinationIndex>
+				<usDestinationFee>200</usDestinationFee>
+				<bDaysAhead>2</bDaysAhead>
+			</DESTINATIONDELIVERYINFO>
+			<!-- Grumm -->
+			<DESTINATIONDELIVERYINFO>	
+				<uiDestinationIndex>4</uiDestinationIndex>
+				<usDestinationFee>235</usDestinationFee>
+				<bDaysAhead>2</bDaysAhead>
+			</DESTINATIONDELIVERYINFO>
+			<!-- Cambria -->
+			<DESTINATIONDELIVERYINFO>	
+				<uiDestinationIndex>6</uiDestinationIndex>
+				<usDestinationFee>225</usDestinationFee>
+				<bDaysAhead>2</bDaysAhead>
+			</DESTINATIONDELIVERYINFO>	
+			<!-- Meduna -->
+			<DESTINATIONDELIVERYINFO>	
+				<uiDestinationIndex>11</uiDestinationIndex>
+				<usDestinationFee>300</usDestinationFee>
+				<bDaysAhead>2</bDaysAhead>
+			</DESTINATIONDELIVERYINFO>				
+			<!-- Palmas -->
+			<DESTINATIONDELIVERYINFO>	
+				<uiDestinationIndex>13</uiDestinationIndex>
+				<usDestinationFee>250</usDestinationFee>
+				<bDaysAhead>2</bDaysAhead>
+			</DESTINATIONDELIVERYINFO>					
+		</DESTINATIONDELIVERYINFOTABLE>		
+	</DELIVERYMETHOD>
+	<DELIVERYMETHOD>
+		<uiIndex>2</uiIndex>
+		<description>3 Day Standard Service</description>		
+		<DESTINATIONDELIVERYINFOTABLE>
+			<!-- Drassen -->
+			<DESTINATIONDELIVERYINFO>	
+				<uiDestinationIndex>2</uiDestinationIndex>
+				<usDestinationFee>100</usDestinationFee>
+				<bDaysAhead>3</bDaysAhead>
+			</DESTINATIONDELIVERYINFO>
+			<!-- Grumm -->
+			<DESTINATIONDELIVERYINFO>	
+				<uiDestinationIndex>4</uiDestinationIndex>
+				<usDestinationFee>120</usDestinationFee>
+				<bDaysAhead>3</bDaysAhead>
+			</DESTINATIONDELIVERYINFO>
+			<!-- Cambria -->
+			<DESTINATIONDELIVERYINFO>	
+				<uiDestinationIndex>6</uiDestinationIndex>
+				<usDestinationFee>110</usDestinationFee>
+				<bDaysAhead>3</bDaysAhead>
+			</DESTINATIONDELIVERYINFO>
+			<!-- Meduna -->
+			<DESTINATIONDELIVERYINFO>	
+				<uiDestinationIndex>11</uiDestinationIndex>
+				<usDestinationFee>150</usDestinationFee>
+				<bDaysAhead>3</bDaysAhead>
+			</DESTINATIONDELIVERYINFO>			
+			<!-- Palmas -->
+			<DESTINATIONDELIVERYINFO>	
+				<uiDestinationIndex>13</uiDestinationIndex>
+				<usDestinationFee>125</usDestinationFee>
+				<bDaysAhead>3</bDaysAhead>
+			</DESTINATIONDELIVERYINFO>			
+		</DESTINATIONDELIVERYINFOTABLE>
+	</DELIVERYMETHOD>
+</DELIVERYMETHODTABLE>

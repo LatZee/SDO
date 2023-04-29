@@ -1,0 +1,24 @@
+<!-- This is the default table, emulating the hardcoded in-game calculation. Feel free to edit.
+	Values range from 0-20, with 20 being the highest quality men and equipment.
+-->
+
+<COOLNESS_BY_SECTOR>
+	<!-- Column index: 1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16 -->
+	<!-- 									 -->
+	<MAP_ROW row="01"> 10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+	<MAP_ROW row="02"> 10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+	<MAP_ROW row="03"> 10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+	<MAP_ROW row="04"> 10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+	<MAP_ROW row="05"> 10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+	<MAP_ROW row="06"> 10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+	<MAP_ROW row="07"> 10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+	<MAP_ROW row="08"> 10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+	<MAP_ROW row="09"> 10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+	<MAP_ROW row="10"> 10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+	<MAP_ROW row="11"> 10  10  10  20  10  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+	<MAP_ROW row="12"> 10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+	<MAP_ROW row="13"> 10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+	<MAP_ROW row="14"> 10  10  20  20  20  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+	<MAP_ROW row="15"> 10  10  20  20  10  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+	<MAP_ROW row="16"> 10  10  20  10  10  10  10  10  10  10  10  10  10  10  10  10</MAP_ROW>
+</COOLNESS_BY_SECTOR>

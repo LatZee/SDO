@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JA2Data>
+	<NasAttachmentClass>
+		<id>0</id>
+		<name>None</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>1</id>
+		<name>Default</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>2</id>
+		<name>Muzzle</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>4</id>
+		<name>Laser</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>8</id>
+		<name>Sight</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>16</id>
+		<name>Scope</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>32</id>
+		<name>Stock</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>64</id>
+		<name>Mag Adapter</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>128</id>
+		<name>Internal</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>256</id>
+		<name>Trigger Group</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>512</id>
+		<name>Underbarrel</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>1024</id>
+		<name>Grenade</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>2048</id>
+		<name>Rocket</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>4096</id>
+		<name>Iron Sight</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>8192</id>
+		<name>Integral Aiming Device</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>16384</id>
+		<name>Scope Nested Attachment</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>32768</id>
+		<name>Scope Mode Slot Top</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>65536</id>
+		<name>Scope Mode Slot Bottom 1</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>131072</id>
+		<name>Scope Mode Slot Bottom 2</name>
+	</NasAttachmentClass>	
+	<NasAttachmentClass>
+		<id>262144</id>
+		<name>Knife</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>524288</id>
+		<name>Rifle Sling</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>1048576</id>
+		<name>Cleaning Kit</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>2097152</id>
+		<name>Battery</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>4194304</id>
+		<name>MOLLE Small</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>8388608</id>
+		<name>MOLLE Medium</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>16777216</id>
+		<name>Sight Devices</name>
+	</NasAttachmentClass>	
+	<NasAttachmentClass>
+		<id>33554432</id>
+		<name>Helmet Cover</name>
+	</NasAttachmentClass>	
+	<NasAttachmentClass>
+		<id>67108864</id>
+		<name>Face Protection</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>134217728</id>
+		<name>Vest Plates</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>268435456</id>
+		<name>Camo Shirt</name>
+	</NasAttachmentClass>
+	<NasAttachmentClass>
+		<id>536870912</id>
+		<name>Leg Protectors</name>
+	</NasAttachmentClass>	
+</JA2Data>

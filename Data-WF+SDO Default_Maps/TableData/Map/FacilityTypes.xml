@@ -1,0 +1,1321 @@
+<FACILITYTYPES>
+	<FACILITYTYPE>
+		<ubIndex>1</ubIndex>
+		<szFacilityName>Hospital</szFacilityName>
+		<szFacilityShortName>Hospital</szFacilityShortName>
+		<ubTotalStaffLimit>4</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>DOCTOR</ubAssignmentType>
+			<szTooltipText>Heal your wounded mercs here. You'll first have to earn the trust of the locals before you can use this hospital. Also you'll have to pay for the extra supplies needed.  Staff#: 2, Cost d/h: 2400/100$, 200% Doctor effectiveness, Medkits lasts 60% longer, Req.: MED-60 WIS-75 Loyalty-60%</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<sCostPerHour>100</sCostPerHour>
+			<usPerformance>200</usPerformance>
+			<usKitDegrade>40</usKitDegrade>
+			<CONDITIONS>
+				<ubMinimumMedical>60</ubMinimumMedical>
+				<ubMinimumWisdom>75</ubMinimumWisdom>
+				<ubMinimumLoyaltyHere>60</ubMinimumLoyaltyHere>
+			</CONDITIONS>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_MEDICAL</ubAssignmentType>
+			<szTooltipText>Put on your scrubs and learn from the local doctors. But you'll first have to earn the trust of this town, and the training and extra medical supplies will cost you.  Staff#: 2, Cost d/h: 1200/50$, 200% Practice Medical effectiveness, 5% chance of DEX gain, Req.: MED-30 WIS-70 Loyalty-60%</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<sCostPerHour>50</sCostPerHour>
+			<usPerformance>150</usPerformance>
+			<CONDITIONS>
+				<ubMinimumMedical>30</ubMinimumMedical>
+				<ubMinimumWisdom>70</ubMinimumWisdom>
+				<ubMinimumLoyaltyHere>60</ubMinimumLoyaltyHere>
+			</CONDITIONS>
+			<DEXTERITY>
+				<ubChance>50</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</DEXTERITY>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>2</ubIndex>
+		<szFacilityName>Small Sleazy Bar</szFacilityName>
+		<szFacilityShortName>Bar</szFacilityShortName>
+		<ubTotalStaffLimit>6</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>Have a drink at the local bar! Slightly increases loyalty in this town, for a price and a chance to get drunk. The drinking also might influence your morale (positive or negative).  Staff#: 6, Cost d/h: 360/15$, 150% Rest effectiveness</szTooltipText>
+			<ubStaffLimit>6</ubStaffLimit>
+			<usPerformance>150</usPerformance>
+			<sCostPerHour>15</sCostPerHour>
+			<CONDITIONS>
+			</CONDITIONS>
+			<MORALE>
+				<usChance>700</usChance>
+				<bBaseEffect>0</bBaseEffect>
+				<ubRange>15</ubRange>
+			</MORALE>
+			<LOYALTY_LOCAL>
+				<ubChance>40</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</LOYALTY_LOCAL>
+			<DRUNK>
+				<ubChance>500</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</DRUNK>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>GATHER_RUMOURS</ubAssignmentType>
+			<szTooltipText>Have a drink at the... Yeah, you wish! Just buy drinks to others and immediately report any info they may spill. Detects enemies countrywide, but may give inaccuracte sector locations.  Staff#: 1, Cost d/h: 360/15$</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<usPerformance>150</usPerformance>
+			<sCostPerHour>15</sCostPerHour>
+			<CONDITIONS>
+			</CONDITIONS>
+			<MORALE>
+				<usChance>700</usChance>
+				<bBaseEffect>0</bBaseEffect>
+				<ubRange>15</ubRange>
+			</MORALE>
+			<LOYALTY_LOCAL>
+				<ubChance>10</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</LOYALTY_LOCAL>
+			<DRUNK>
+				<ubChance>100</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</DRUNK>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>3</ubIndex>
+		<szFacilityName>Prison Complex</szFacilityName>
+		<szFacilityShortName>Prison</szFacilityShortName>
+		<ubTotalStaffLimit>8</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>INTERROGATE_PRISONERS</ubAssignmentType>
+			<szTooltipText>The slammer featuring proper solitary confinement. Provides interrogation tools to get what you need from your prisoners. They can join you, or rat out on patrol locations.  Staff#: 4, 120% Interrogate effectiveness</szTooltipText>
+			<ubStaffLimit>4</ubStaffLimit>
+			<usPerformance>120</usPerformance>
+			<usPrisonBaseLimit>60</usPrisonBaseLimit>
+			<CONDITIONS>
+			</CONDITIONS>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRISON_SNITCH</ubAssignmentType>
+			<szTooltipText>Masquerade as one of prisoners and gain their trust to easily gather information and prevent mutiny attempts. However, every hour there's a risk that snitch will be exposed.  Staff#: 4, Massive Boost to Interrogate effectiveness and guard strength</szTooltipText>
+			<ubStaffLimit>4</ubStaffLimit>
+			<usPerformance>120</usPerformance>
+			<CONDITIONS>
+			</CONDITIONS>
+		</ASSIGNMENT>		
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>4</ubIndex>
+		<szFacilityName>Commercial Harbor</szFacilityName>
+		<szFacilityShortName>Harbor</szFacilityShortName>
+		<ubTotalStaffLimit>2</ubTotalStaffLimit>
+		<pmcentrypoint>1</pmcentrypoint>		
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Deidranna's policy helped creating a thriving black market in this port. You can take a share of the profits.  Staff#: 2, Income d/h: 2400/100$, 5% chance of STR gain, Req.: STR-70 LDR-30 WIS-75</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<sCostPerHour>-100</sCostPerHour>
+			<usPerformance>200</usPerformance>
+		<CONDITIONS>
+		        <ubMinimumStrength>70</ubMinimumStrength>
+		        <ubMinimumLeadership>30</ubMinimumLeadership>
+				<ubMinimumWisdom>75</ubMinimumWisdom>		
+		</CONDITIONS>
+			<STRENGTH>
+				<ubChance>50</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</STRENGTH>
+		</ASSIGNMENT>
+	</FACILITYTYPE>	
+
+	<FACILITYTYPE>
+		<ubIndex>5</ubIndex>
+		<szFacilityName>Small Airport</szFacilityName>
+		<szFacilityShortName>Airport</szFacilityShortName>
+		<ubTotalStaffLimit>2</ubTotalStaffLimit>
+		<pmcentrypoint>1</pmcentrypoint>		
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Job offer at local airport: 2 guys needed for unloading of aircraft. Earn a few bucks and a slight increase in strength.  Staff#: 2, Income d/h: 480/20$, 5% chance of STR gain, Req.: STR-70</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<sCostPerHour>-20</sCostPerHour>
+			<usPerformance>200</usPerformance>
+		<CONDITIONS>
+		<ubMinimumStrength>70</ubMinimumStrength>
+		</CONDITIONS>
+			<STRENGTH>
+				<ubChance>50</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</STRENGTH>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>6</ubIndex>
+		<szFacilityName>Munitions Factory</szFacilityName>
+		<szFacilityShortName>Factory</szFacilityShortName>
+		<ubTotalStaffLimit>2</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_ITEMS</ubAssignmentType>
+			<szTooltipText>The machinery here can manufacture all sorts of replacements parts, which will increase your repair efficiency. The extra materials needed will cost you a bit.  Staff#: 2, Cost d/h: 1200/50$,  200% Repair effectiveness, Toolkit lasts 70% longer, Req.: MEC-60 DEX-70</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<sCostPerHour>50</sCostPerHour>
+			<usPerformance>200</usPerformance>
+			<usKitDegrade>30</usKitDegrade>
+			<CONDITIONS>
+				<ubMinimumMechanical>60</ubMinimumMechanical>
+				<ubMinimumDexterity>70</ubMinimumDexterity>
+			</CONDITIONS>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>7</ubIndex>
+		<szFacilityName>Military Barracks</szFacilityName>
+		<szFacilityShortName>Barracks</szFacilityShortName>
+		<ubTotalStaffLimit>15</ubTotalStaffLimit>
+		<ubMilitiaTrainersAllowed>3</ubMilitiaTrainersAllowed>
+		<ubMobileMilitiaTrainersAllowed>2</ubMobileMilitiaTrainersAllowed>
+		<usMilitiaTraining>110</usMilitiaTraining>
+		<usMobileMilitiaTraining>120</usMobileMilitiaTraining>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>There are plenty of beds here. It's a bit basic, but certainly better than resting outside!  Staff#: 10, 110% Rest effectivness, 120% Sleep effectiveness</szTooltipText>
+			<ubStaffLimit>10</ubStaffLimit>
+			<usPerformance>110</usPerformance>
+			<usSleep>120</usSleep>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>8</ubIndex>
+		<szFacilityName>Military Headquarters</szFacilityName>
+		<szFacilityShortName>Mil. HQ</szFacilityShortName>
+		<ubTotalStaffLimit>8</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>The war room with hi-tech communications equipment for your strategic awareness. Highly skilled operative required.  Staff#: 1, Detects exact enemy groups in radius of 5 sectors and in sectors patrolled by Mobile Militia, Req.: LDR-80 WIS-80 LVL-6</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<fDetectEnemiesDynamic>1</fDetectEnemiesDynamic>
+			<ubDetectEnemiesImmediate>5</ubDetectEnemiesImmediate>
+			<CONDITIONS>
+				<ubMinimumLeadership>80</ubMinimumLeadership>
+				<ubMinimumWisdom>80</ubMinimumWisdom>
+				<ubMinimumLevel>6</ubMinimumLevel>
+			</CONDITIONS>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>TRAINER_LEADERSHIP</ubAssignmentType>
+			<szTooltipText>This military facility was designed to aid train new officers.  Staff#: 2, Cost d/h: 360/15$, 175% Train Leadership effectiveness, Req.: LDR-50 WIS-75</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<usPerformance>175</usPerformance>
+			<sCostPerHour>15</sCostPerHour>
+			<CONDITIONS>
+				<ubMinimumLeadership>50</ubMinimumLeadership>
+				<ubMinimumWisdom>75</ubMinimumWisdom>
+			</CONDITIONS>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>STUDENT_LEADERSHIP</ubAssignmentType>
+			<szTooltipText>Studying the art of leadership is much easier in an environment specifically designed for that purpose.  Staff#: 4, Cost d/h: 240/10$, 150% Student Leadership effectiveness, Req.: LDR-30 WIS-70</szTooltipText>
+			<ubStaffLimit>4</ubStaffLimit>
+			<usPerformance>150</usPerformance>
+			<sCostPerHour>10</sCostPerHour>
+			<CONDITIONS>
+				<ubMinimumLeadership>30</ubMinimumLeadership>
+				<ubMinimumWisdom>70</ubMinimumWisdom>
+			</CONDITIONS>
+		</ASSIGNMENT>		
+		<ASSIGNMENT>
+			<ubAssignmentType>SPREAD_PROPAGANDA_GLOBAL</ubAssignmentType>
+			<szTooltipText>Take control of local information channels and control the flow of news in entire region.  Staff#: 1, Increases town loyalty hourly and lowers hight of town loyalty drops, Req.: LDR-50 WIS-60</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<CONDITIONS>
+				<ubMinimumWisdom>60</ubMinimumWisdom>
+				<ubMinimumLeadership>50</ubMinimumLeadership>
+				<usPerformance>80</usPerformance>
+			</CONDITIONS>
+		</ASSIGNMENT>	
+		<ASSIGNMENT>
+			<ubAssignmentType>STRATEGIC_MILITIA_MOVEMENT</ubAssignmentType>
+			<szTooltipText>This military installation has a war room that allows you to move all of your militia in the strategic screen.  Staff#: 1, Suspends militia auto-movement and let's you control it via the 'W', 'A', 'S' or 'D' keys, Req.: LDR-80 WIS-80 LVL-6</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<CONDITIONS>
+				<ubMinimumWisdom>80</ubMinimumWisdom>
+				<ubMinimumLeadership>80</ubMinimumLeadership>
+				<ubMinimumLevel>6</ubMinimumLevel>
+			</CONDITIONS>
+		</ASSIGNMENT>		
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>9</ubIndex>
+		<szFacilityName>Shooting Range</szFacilityName>
+		<szFacilityShortName>Range</szFacilityShortName>
+		<ubTotalStaffLimit>7</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_MARKSMANSHIP</ubAssignmentType>
+			<szTooltipText>Why not spend some time practicing your aim? There are 6 targets available for your mercs to practice their accuracy, but the extra ammo and weapons have a cost.  Staff#: 6, Cost d/h: 1680/70$, 200% Practice Marksmanship effectiveness, 5% chance of DEX gain</szTooltipText>
+			<ubStaffLimit>6</ubStaffLimit>
+			<usPerformance>200</usPerformance>
+			<sCostPerHour>70</sCostPerHour>
+			<DEXTERITY>
+				<ubChance>50</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</DEXTERITY>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>TRAINER_MARKSMANSHIP</ubAssignmentType>
+			<szTooltipText>With the appropriate equipment here, a skilled marksman and trainer will perform better in teaching how to shoot more accurately. The trainer asks for a raise.  Staff#: 1, Cost d/h: 4800/200$, 250% Train Marksmanship effectiveness, Req.: MRK-90 LDR-40 WIS-60</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<usPerformance>250</usPerformance>
+			<sCostPerHour>200</sCostPerHour>
+			<CONDITIONS>
+				<ubMinimumMarksmanship>90</ubMinimumMarksmanship>
+				<ubMinimumLeadership>40</ubMinimumLeadership>
+				<ubMinimumWisdom>60</ubMinimumWisdom>
+			</CONDITIONS>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>STUDENT_MARKSMANSHIP</ubAssignmentType>
+			<szTooltipText>Learn from a skilled marksman how to place your shots where they're supposed to hit.  Staff#: 6, Cost d/h: 1680/70$, 250% Student Marksmanship effectiveness, 10% chance of DEX gain</szTooltipText>
+			<ubStaffLimit>6</ubStaffLimit>
+			<usPerformance>250</usPerformance>
+			<sCostPerHour>70</sCostPerHour>
+			<DEXTERITY>
+				<ubChance>100</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</DEXTERITY>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>10</ubIndex>
+		<szFacilityName>A.C.A Building</szFacilityName>
+		<szFacilityShortName>A.C.A</szFacilityShortName>
+		<ubTotalStaffLimit>4</ubTotalStaffLimit>
+		<ubMilitiaTrainersAllowed>4</ubMilitiaTrainersAllowed>
+		<ubMobileMilitiaTrainersAllowed>2</ubMobileMilitiaTrainersAllowed>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Coordinated by a skilled commander, local militia are able to scout out the surrounding area for you.  Staff#: 1, Detects exact enemy groups in radius of 2 sectors, Req.: LDR-30 WIS-75 Loyalty-60%</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<ubDetectEnemiesImmediate>2</ubDetectEnemiesImmediate>
+			<CONDITIONS>
+				<ubMinimumLeadership>30</ubMinimumLeadership>
+				<ubMinimumWisdom>75</ubMinimumWisdom>
+				<ubMinimumLoyaltyHere>60</ubMinimumLoyaltyHere>
+			</CONDITIONS>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>SPREAD_PROPAGANDA</ubAssignmentType>
+			<szTooltipText>Turn this small local office into well-oiled propaganda machine, suppressing any bad news reaching town and showing our actions in the best possible light.  Staff#: 1, Increases town loyalty hourly and lowers hight of town loyalty drops, Req.: LDR-20 WIS-60 Loyalty-20%</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<CONDITIONS>
+				<ubMinimumWisdom>60</ubMinimumWisdom>
+				<ubMinimumLeadership>20</ubMinimumLeadership>
+				<ubMinimumLoyaltyHere>20</ubMinimumLoyaltyHere>
+				<usPerformance>150</usPerformance>
+			</CONDITIONS>
+		</ASSIGNMENT>		
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>11</ubIndex>
+		<szFacilityName>SAM Site</szFacilityName>
+		<szFacilityShortName>SAM Site</szFacilityShortName>
+		<ubTotalStaffLimit>4</ubTotalStaffLimit>	
+		<ubMilitiaTrainersAllowed>2</ubMilitiaTrainersAllowed>
+		<usMilitiaTraining>20</usMilitiaTraining>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>By manning this facility, you can ensure that the sky above you remains clear of enemy aircraft.  Staff#: 2, Cost d/h: 2400/100$, Reduces helicopter pilot fee by 100$ per sector traveled, Req.: WIS-70</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<sCostPerHour>100</sCostPerHour>
+			<sSkyriderCostModifier>-100</sSkyriderCostModifier>
+			<CONDITIONS>
+				<ubMinimumWisdom>70</ubMinimumWisdom>
+			</CONDITIONS>
+		</ASSIGNMENT>
+	</FACILITYTYPE>	
+
+	<FACILITYTYPE>
+		<ubIndex>12</ubIndex>
+		<szFacilityName>Mine</szFacilityName>
+		<szFacilityShortName>Mine</szFacilityShortName>
+		<ubTotalStaffLimit>2</ubTotalStaffLimit>	
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_EXPLOSIVES</ubAssignmentType>
+			<szTooltipText>For a fee, the mine demolitioners will teach you "stuff go boom" skills.  Staff#: 4, Cost d/h: 1200/50$, 200% Practice Explosives effectiveness, Req.: EXP-30 Loyalty-60%</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<sCostPerHour>50</sCostPerHour>
+			<usPerformance>200</usPerformance>
+			<CONDITIONS>
+				<ubMinimumExplosives>30</ubMinimumExplosives>
+				<ubMinimumLoyaltyHere>60</ubMinimumLoyaltyHere>
+			</CONDITIONS>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>13</ubIndex>
+		<szFacilityName>Brothel</szFacilityName>
+		<szFacilityShortName>Brothel</szFacilityShortName>
+		<ubTotalStaffLimit>2</ubTotalStaffLimit>	
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>Hoo-boy! Lemme at those ladies!  Staff#: 2, Cost d/h: 480/20$, 140% Rest effectiveness, 8% chance of AGI gain, 3% chance of STR gain, Req.: HLT-40 </szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<usPerformance>140</usPerformance>
+			<sCostPerHour>20</sCostPerHour>
+			<CONDITIONS>
+				<ubMinimumHealth>40</ubMinimumHealth>
+			</CONDITIONS>
+			<INJURY>
+				<ubChance>10</ubChance>
+				<bBaseEffect>-1</bBaseEffect>
+				<ubRange>2</ubRange>
+			</INJURY>
+			<HEALTH>
+				<ubChance>5</ubChance>
+				<bBaseEffect>-5</bBaseEffect>
+				<ubRange>5</ubRange>
+			</HEALTH>
+			<AGILITY>
+				<ubChance>80</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</AGILITY>
+			<STRENGTH>
+				<ubChance>30</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</STRENGTH>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>14</ubIndex>
+		<szFacilityName>Small Church</szFacilityName>
+		<szFacilityShortName>Church</szFacilityShortName>
+		<ubTotalStaffLimit>6</ubTotalStaffLimit>	
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>A solemn hour of prayer and devotion in a quiet little church can help raise anyone's spirit. It might also convince the locals that you respect their way of life.  Staff#: 6, 110% Rest effectivness, Chance of Morale/Loyalty increase</szTooltipText>
+			<ubStaffLimit>6</ubStaffLimit>
+			<usPerformance>110</usPerformance>
+			<CONDITIONS>
+			</CONDITIONS>
+			<MORALE>
+				<ubChance>200</ubChance>
+				<bBaseEffect>10</bBaseEffect>
+				<ubRange>10</ubRange>
+			</MORALE>
+			<LOYALTY_LOCAL>
+				<ubChance>50</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</LOYALTY_LOCAL>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>15</ubIndex>
+		<szFacilityName>Boxing Club</szFacilityName>
+		<szFacilityShortName>Club</szFacilityShortName>
+		<ubTotalStaffLimit>10</ubTotalStaffLimit>	
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_HEALTH</ubAssignmentType>
+			<szTooltipText>There's plenty of gymnastic equipment here, just waiting to be used. This is a great way to get a balanced work-out that might improve your shape considerably.  Staff#: 6, Cost d/h: 3840/160$, 200% Practice Health effectiveness, Req.: HLT-60 AGI-40 STR-40</szTooltipText>
+			<ubStaffLimit>10</ubStaffLimit>
+			<sCostPerHour>160</sCostPerHour>
+			<usPerformance>200</usPerformance>
+			<CONDITIONS>
+				<ubMinimumHealth>60</ubMinimumHealth>
+				<ubMinimumAgility>40</ubMinimumAgility>
+				<ubMinimumStrength>40</ubMinimumStrength>
+			</CONDITIONS>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_AGILITY</ubAssignmentType>
+			<szTooltipText>The gym here is equipped to train full-fledged fighters. Kick-box training will improve your speed and reflexes.  Staff#: 6, Cost d/h: 4800/200$, 300% Practice Agility effectiveness, Req.: HLT-60 AGI-40 STR-40</szTooltipText>
+			<ubStaffLimit>10</ubStaffLimit>
+			<sCostPerHour>200</sCostPerHour>
+			<usPerformance>300</usPerformance>
+			<CONDITIONS>
+				<ubMinimumHealth>60</ubMinimumHealth>
+				<ubMinimumAgility>40</ubMinimumAgility>
+				<ubMinimumStrength>40</ubMinimumStrength>
+			</CONDITIONS>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_STRENGTH</ubAssignmentType>
+			<szTooltipText>The gym here has free weights, resistance bands, weight machines... It's all here, waiting for you to increase your power.  Staff#: 6, Cost d/h: 3840/160$, 300% Practice Strength effectiveness, Req.: HLT-60 AGI-40 STR-40</szTooltipText>
+			<ubStaffLimit>10</ubStaffLimit>
+			<sCostPerHour>160</sCostPerHour>
+			<usPerformance>300</usPerformance>
+			<CONDITIONS>
+				<ubMinimumHealth>60</ubMinimumHealth>
+				<ubMinimumAgility>40</ubMinimumAgility>
+				<ubMinimumStrength>40</ubMinimumStrength>
+			</CONDITIONS>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>16</ubIndex>
+		<szFacilityName>National Museum</szFacilityName>
+		<szFacilityShortName>Museum</szFacilityShortName>
+		<ubTotalStaffLimit>2</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Study the history and arts of Arulco to expand your mind.  Staff#: 2, Cost d/h: 8400/350$, 20% chance of WIS gain, Req.: WIS-40</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<sCostPerHour>350</sCostPerHour>
+			<usPerformance>300</usPerformance>
+			<CONDITIONS>
+				<ubMinimumWisdom>40</ubMinimumWisdom>
+			</CONDITIONS>
+			<WISDOM>
+				<ubChance>200</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</WISDOM>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>17</ubIndex>
+		<szFacilityName>Laboratory</szFacilityName>
+		<szFacilityShortName>Lab</szFacilityShortName>
+		<ubTotalStaffLimit>6</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>TRAINER_MEDICAL</ubAssignmentType>
+			<szTooltipText>The great conditions here allow for the trainer to give superb performance. Top class doctor required.  Staff#: 1, 250% Train Medical effectiveness, Req.: MED-90 WIS-90</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<usPerformance>250</usPerformance>
+			<CONDITIONS>
+				<ubMinimumMedical>90</ubMinimumMedical>
+				<ubMinimumWisdom>90</ubMinimumWisdom>
+			</CONDITIONS>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>STUDENT_MEDICAL</ubAssignmentType>
+			<szTooltipText>This high-tech lab has all the equipment and books necessary for medical studies. The queen's scientist made a few asstonishing breakthroughs in medicine, so expect a high degree of knowledge gain.  Staff#: 2, 250% Student Medical effectiveness, Req.: MED-30 WIS-60</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<usPerformance>250</usPerformance>
+			<CONDITIONS>
+				<ubMinimumMedical>30</ubMinimumMedical>
+				<ubMinimumWisdom>60</ubMinimumWisdom>
+			</CONDITIONS>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>TRAINER_EXPLOSIVES</ubAssignmentType>
+			<szTooltipText>This high-tech lab has all the equipment and books necessary for the study of explosives. The conditions are top-notch so expect a high degree of knowledge gain for the STUDENTs. Top class expert required.  Staff#: 1, 400% Train Explosives effectiveness, Req.: EXP-90 WIS-90</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<usPerformance>400</usPerformance>
+			<CONDITIONS>
+				<ubMinimumExplosives>90</ubMinimumExplosives> 
+				<ubMinimumWisdom>90</ubMinimumWisdom>
+			</CONDITIONS>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>STUDENT_EXPLOSIVES</ubAssignmentType>
+			<szTooltipText>The queen's lab here has all the condition for top class explosive experiments. Although it's a controlled environment there's still a small chance for the things to go wrong.  Staff#: 2, 250% Student Explosives effectiveness, Req.: EXP-30 WIS-60</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<usPerformance>250</usPerformance>
+			<CONDITIONS>
+				<ubMinimumExplosives>30</ubMinimumExplosives> 
+				<ubMinimumWisdom>60</ubMinimumWisdom>
+			</CONDITIONS>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+	
+	<FACILITYTYPE>
+		<ubIndex>18</ubIndex>
+		<szFacilityName>Junkyard</szFacilityName>
+		<szFacilityShortName>Junkyard</szFacilityShortName>
+		<ubTotalStaffLimit>6</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_ITEMS</ubAssignmentType>
+			<szTooltipText>This place is practically littered with spare parts for anything you might imagine. This will certainly make repairing of items considerably easier.  Staff#: 6, 120% Repair effectiveness, Toolkit lasts 40% longer, Merc on assignmet gets tired 20% faster</szTooltipText>
+			<ubStaffLimit>6</ubStaffLimit>
+			<usPerformance>120</usPerformance>
+			<usFatigue>120</usFatigue>
+			<usKitDegrade>60</usKitDegrade>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_VEHICLE</ubAssignmentType>
+			<szTooltipText>This place is practically littered with spare parts for anything you might imagine. This will certainly make for easier repairs to your vehicle.  Staff#: 2, 110% Repair effectiveness, Toolkit lasts 25% longer, Merc on assignmet gets tired 20% faster</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<usPerformance>110</usPerformance>
+			<usFatigue>120</usFatigue>
+			<usKitDegrade>75</usKitDegrade>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_ROBOT</ubAssignmentType>
+			<szTooltipText>This place is practically littered with spare parts for anything you might imagine...R2D2's little paradise...  Staff#: 1, 175% Repair effectiveness, Toolkit lasts 10% longer, Merc on assignmet gets tired 20% faster</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<usPerformance>175</usPerformance>
+			<usFatigue>120</usFatigue>
+			<usKitDegrade>90</usKitDegrade>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>19</ubIndex>
+		<szFacilityName>Beach Resort</szFacilityName>
+		<szFacilityShortName>Beach</szFacilityShortName>
+		<ubTotalStaffLimit>32</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>Sun, sand, surf. This sure as hell beats sleeping in a trench.  Staff#: 32, Cost d/h: 360/15$, 160% Rest effectiveness, 200% Sleep effectivness, Chance of Morale increase</szTooltipText>
+			<ubStaffLimit>32</ubStaffLimit>
+			<sCostPerHour>15</sCostPerHour>
+			<usPerformance>160</usPerformance>
+			<usSleep>200</usSleep>
+			<MORALE>
+				<ubChance>500</ubChance>
+				<bBaseEffect>10</bBaseEffect>
+				<ubRange>15</ubRange>
+			</MORALE>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>20</ubIndex>
+		<szFacilityName>Snack and Shack</szFacilityName>
+		<szFacilityShortName>Motel</szFacilityShortName>
+		<ubTotalStaffLimit>8</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>This motel offers a few quiet rooms, clean beds, and a healthy local breakfast.  Staff#: 8, Cost d/h: 960/40$, 140% Rest effectivness, 150% Sleep effectiveness</szTooltipText>
+			<ubStaffLimit>8</ubStaffLimit>
+			<sCostPerHour>40</sCostPerHour>
+			<usPerformance>140</usPerformance>
+			<usSleep>150</usSleep>
+			<CONDITIONS>
+			</CONDITIONS>
+			<MORALE>
+				<ubChance>200</ubChance>
+				<bBaseEffect>15</bBaseEffect>
+				<ubRange>10</ubRange>
+			</MORALE>
+			<DRUNK>
+				<ubChance>150</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</DRUNK>
+			<LOYALTY_LOCAL>
+				<ubChance>20</ubChance>
+				<bBaseEffect>0</bBaseEffect>
+				<ubRange>5</ubRange>
+			</LOYALTY_LOCAL>
+			<LOYALTY_GLOBAL>
+				<ubChance>50</ubChance>
+				<bBaseEffect>-1</bBaseEffect>
+				<ubRange>1</ubRange>
+			</LOYALTY_GLOBAL>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PATIENT</ubAssignmentType>
+			<szTooltipText>A clean bed and a hearty meal will soon help your mercs to heal.  Staff#: 8, Cost d/h: 960/40$, 120% Patient assignment effectivness, 140% Sleep effectiveness</szTooltipText>
+			<ubStaffLimit>8</ubStaffLimit>
+			<sCostPerHour>40</sCostPerHour>
+			<usPerformance>120</usPerformance>
+			<usSleep>140</usSleep>
+			<CONDITIONS>
+			</CONDITIONS>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>21</ubIndex>
+		<szFacilityName>Rebel Hideout</szFacilityName>
+		<szFacilityShortName>Rebel Hideout</szFacilityShortName>
+		<ubMilitiaTrainersAllowed>2</ubMilitiaTrainersAllowed>
+		<ubMobileMilitiaTrainersAllowed>1</ubMobileMilitiaTrainersAllowed>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>22</ubIndex>
+		<szFacilityName>Farm</szFacilityName>
+		<szFacilityShortName>Farm</szFacilityShortName>
+		<ubTotalStaffLimit>2</ubTotalStaffLimit>	
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Help some local farmers with their daily work. Earn some bucks and build your muscles. Though the work is hard and also quite a bit boring.  Staff#: 2, Income d/h: 120/5$, 1% chance of STR, AGI and HLT gain, Req.: HLT-50 STR-40 AGI-40</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<usPerformance>150</usPerformance>
+			<sCostPerHour>-5</sCostPerHour>
+			<CONDITIONS>
+				<ubMinimumHealth>50</ubMinimumHealth>
+				<ubMinimumStrength>40</ubMinimumStrength>
+				<ubMinimumAgility>40</ubMinimumAgility>
+			</CONDITIONS>
+			<AGILITY>
+				<usChance>10</usChance>
+				<bBaseEffect>0</bBaseEffect>
+				<ubRange>2</ubRange>
+			</AGILITY>
+			<HEALTH>
+				<usChance>10</usChance>
+				<bBaseEffect>0</bBaseEffect>
+				<ubRange>1</ubRange>
+			</HEALTH>
+			<INJURY>
+				<ubChance>10</ubChance>
+				<bBaseEffect>-3</bBaseEffect>
+				<ubRange>10</ubRange>
+			</INJURY>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>23</ubIndex>
+		<szFacilityName>Barracks</szFacilityName>
+		<szFacilityShortName>Barracks</szFacilityShortName>
+		<ubTotalStaffLimit>10</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>There are plenty of beds here. It's a bit basic, but certainly better than resting outside!  Staff#: 10, 110% Rest effectivness, 120% Sleep effectiveness</szTooltipText>
+			<ubStaffLimit>10</ubStaffLimit>
+			<usPerformance>110</usPerformance>
+			<usSleep>120</usSleep>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>24</ubIndex>
+		<szFacilityName>Small Workshop</szFacilityName>
+		<szFacilityShortName>Workshop</szFacilityShortName>
+		<ubTotalStaffLimit>2</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_ITEMS</ubAssignmentType>
+			<szTooltipText>Repairing your equipment in a workshop is much more convenient than doing it in the field.  Staff#: 2, Cost d/h: 1200/50$, 120% Repair effectiveness, Req.: MEC-40 DEX-60</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<usPerformance>120</usPerformance>
+			<usKitDegrade>83</usKitDegrade>
+			<sCostPerHour>50</sCostPerHour>
+			<CONDITIONS>
+				<ubMinimumMechanical>40</ubMinimumMechanical>
+				<ubMinimumDexterity>60</ubMinimumDexterity>
+			</CONDITIONS>
+			<INJURY>
+				<ubChance>10</ubChance>
+				<bBaseEffect>-5</bBaseEffect>
+				<ubRange>20</ubRange>
+			</INJURY>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+    <FACILITYTYPE>
+		<ubIndex>25</ubIndex>
+		<szFacilityName>Residential Homes</szFacilityName>
+		<szFacilityShortName>Residential Home</szFacilityShortName>
+		<ubTotalStaffLimit>8</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>After winning the locals trust, they are willing to offer you their hospitality. A bit basic, but it sure is better than sleeping on the barren ground.  Staff#: 8, Cost d/h: 480/20$, 120% Rest effectiveness, 130% Sleep effectiveness, 5% chance of STR gain, Req.: Loyalty-60%</szTooltipText>
+			<ubStaffLimit>8</ubStaffLimit>
+			<sCostPerHour>20</sCostPerHour>
+			<usPerformance>120</usPerformance>
+			<usSleep>130</usSleep>
+			<CONDITIONS>
+				<ubMinimumLoyaltyHere>50</ubMinimumLoyaltyHere>
+			</CONDITIONS>
+			<MORALE>
+				<ubChance>100</ubChance>
+				<bBaseEffect>10</bBaseEffect>
+				<ubRange>10</ubRange>
+			</MORALE>
+			<DRUNK>
+				<ubChance>150</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</DRUNK>
+			<LOYALTY_LOCAL>
+				<ubChance>20</ubChance>
+				<bBaseEffect>0</bBaseEffect>
+				<ubRange>5</ubRange>
+			</LOYALTY_LOCAL>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PATIENT</ubAssignmentType>
+			<szTooltipText>A clean bed and a hearty meal will soon help your mercs to heal.  Staff#: 8, Cost d/h: 480/20$, 110% Patient assignment effectiveness, 120% Sleep effectiveness, 5% chance of STR gain, Req.: Loyalty-60%</szTooltipText>
+			<ubStaffLimit>8</ubStaffLimit>
+			<sCostPerHour>20</sCostPerHour>
+			<usPerformance>110</usPerformance>
+			<usSleep>120</usSleep>
+			<CONDITIONS>
+				<ubMinimumLoyaltyHere>50</ubMinimumLoyaltyHere>
+			</CONDITIONS>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>26</ubIndex>
+		<szFacilityName>Luxury Homes</szFacilityName>
+		<szFacilityShortName>Luxury Home</szFacilityShortName>
+		<ubTotalStaffLimit>8</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>These nice homes seem to be abandoned. Hmmmmm.... comfortable beds.  Staff#: 8, 150% Rest effectiveness, 160% Sleep effectiveness</szTooltipText>
+			<ubStaffLimit>8</ubStaffLimit>
+			<sCostPerHour>0</sCostPerHour>
+			<usPerformance>150</usPerformance>
+			<usSleep>160</usSleep>
+			<CONDITIONS>
+			</CONDITIONS>
+			<MORALE>
+				<ubChance>170</ubChance>
+				<bBaseEffect>10</bBaseEffect>
+				<ubRange>10</ubRange>
+			</MORALE>
+			<DRUNK>
+				<ubChance>150</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</DRUNK>
+			<LOYALTY_LOCAL>
+				<ubChance>20</ubChance>
+				<bBaseEffect>-3</bBaseEffect>
+				<ubRange>5</ubRange>
+			</LOYALTY_LOCAL>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PATIENT</ubAssignmentType>
+			<szTooltipText>A clean bed and a hearty meal will soon help your mercs to heal.  Staff#: 8, Cost d/h: 480/20$, 130% Patient assignment effectiveness, 150% Sleep effectiveness</szTooltipText>
+			<ubStaffLimit>8</ubStaffLimit>
+			<sCostPerHour>20</sCostPerHour>
+			<usPerformance>130</usPerformance>
+			<usSleep>150</usSleep>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>27</ubIndex>
+		<szFacilityName>Abandoned Mine</szFacilityName>
+		<szFacilityShortName>Abandoned Mine</szFacilityShortName>
+		<ubTotalStaffLimit>4</ubTotalStaffLimit>	
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_EXPLOSIVES</ubAssignmentType>
+			<szTooltipText>For a fee, the mine demolitioners will teach you "stuff go boom" skills.  Staff#: 4, Cost d/h: 1200/50$, 200% Practice Explosives effectiveness, Req.: EXP-30 Loyalty-60%</szTooltipText>
+			<ubStaffLimit>4</ubStaffLimit>
+			<sCostPerHour>50</sCostPerHour>
+			<usPerformance>200</usPerformance>
+			<CONDITIONS>
+				<ubMinimumExplosives>30</ubMinimumExplosives>
+				<ubMinimumLoyaltyHere>60</ubMinimumLoyaltyHere>
+			</CONDITIONS>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>28</ubIndex>
+		<szFacilityName>SAM Site</szFacilityName>
+		<szFacilityShortName>SAM Site</szFacilityShortName>
+		<ubTotalStaffLimit>1</ubTotalStaffLimit>	
+		<ubMilitiaTrainersAllowed>2</ubMilitiaTrainersAllowed>
+		<usMilitiaTraining>20</usMilitiaTraining>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>By manning this facility, you can ensure that the sky above you remains clear of enemy aircraft. The hot climate limits the effectiveness.  Staff#: 2, Cost d/h: 2400/100$, Reduces helicopter pilot fee by 100$ per sector traveled, Req.: WIS-70</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<sCostPerHour>100</sCostPerHour>
+			<sSkyriderCostModifier>-100</sSkyriderCostModifier>
+			<CONDITIONS>
+				<ubMinimumWisdom>70</ubMinimumWisdom>
+			</CONDITIONS>
+		</ASSIGNMENT>
+	</FACILITYTYPE>	
+
+	<FACILITYTYPE>
+		<ubIndex>29</ubIndex>
+		<szFacilityName>Barracks</szFacilityName>
+		<szFacilityShortName>Barracks</szFacilityShortName>
+		<ubTotalStaffLimit>10</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>REST</ubAssignmentType>
+			<szTooltipText>There are plenty of beds here. It's a bit basic, but certainly better than resting outside! The hot climate limits the effectiveness.  Staff#: 10, 105% Rest effectivness, 110% Sleep effectiveness</szTooltipText>
+			<ubStaffLimit>10</ubStaffLimit>
+			<usPerformance>105</usPerformance>
+			<usSleep>110</usSleep>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>30</ubIndex>
+		<szFacilityName>Small Workshop</szFacilityName>
+		<szFacilityShortName>Workshop</szFacilityShortName>
+		<ubTotalStaffLimit>2</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>REPAIR_ITEMS</ubAssignmentType>
+			<szTooltipText>Repairing your equipment in a workshop is much more convenient than doing it in the field. The hot climate limits the effectiveness.  Staff#: 2, Cost d/h: 1200/50$, 110% Repair effectiveness, Req.: MEC-40 DEX-60</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<usPerformance>110</usPerformance>
+			<usKitDegrade>83</usKitDegrade>
+			<sCostPerHour>50</sCostPerHour>
+			<CONDITIONS>
+				<ubMinimumMechanical>40</ubMinimumMechanical>
+				<ubMinimumDexterity>60</ubMinimumDexterity>
+			</CONDITIONS>
+			<INJURY>
+				<ubChance>15</ubChance>
+				<bBaseEffect>-5</bBaseEffect>
+				<ubRange>20</ubRange>
+			</INJURY>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>31</ubIndex>
+		<szFacilityName>Military Prison</szFacilityName>
+		<szFacilityShortName>Prison</szFacilityShortName>
+		<ubTotalStaffLimit>3</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>INTERROGATE_PRISONERS</ubAssignmentType>
+			<szTooltipText>Smaller then a prison complex, but suffices for a fair amount of prisoners. Don't forget to interrogate them, as they might join your militia ranks or give out helpful info.  Staff#: 3, 110% Interrogate effectiveness</szTooltipText>
+			<ubStaffLimit>3</ubStaffLimit>
+			<usPerformance>100</usPerformance>
+			<usPrisonBaseLimit>20</usPrisonBaseLimit>
+			<CONDITIONS>
+			</CONDITIONS>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRISON_SNITCH</ubAssignmentType>
+			<szTooltipText>Masquerade as one of prisoners and gain their trust to easily gather information and prevent mutiny attempts. However, every hour there's a risk that snitch will be exposed.  Staff#: 3, 90% basic Interrogate effectiveness, Massive additional boost to Interrogate effectiveness and prison guard strength</szTooltipText>
+			<ubStaffLimit>3</ubStaffLimit>
+			<usPerformance>90</usPerformance>
+			<CONDITIONS>
+			</CONDITIONS>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>32</ubIndex>
+		<szFacilityName>Town Prison</szFacilityName>
+		<szFacilityShortName>Prison</szFacilityShortName>
+		<ubTotalStaffLimit>2</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>INTERROGATE_PRISONERS</ubAssignmentType>
+			<szTooltipText>The local town prison. Interrogate prisoners of war here to make them join you, or rat out on some enemy patrol locations. But don't expect to much from this small facility.  Staff#: 2, 90% Interrogate effectiveness</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<usPerformance>90</usPerformance>
+			<usPrisonBaseLimit>5</usPrisonBaseLimit>
+			<CONDITIONS>
+			</CONDITIONS>
+		</ASSIGNMENT>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRISON_SNITCH</ubAssignmentType>
+			<szTooltipText>Masquerade as one of prisoners and gain their trust to easily gather information and prevent mutiny attempts.  Staff#: 1, 70% basic Interrogate effectiveness, Massive additional boost to Interrogate effectiveness and prison guard strength</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<usPerformance>70</usPerformance>
+			<CONDITIONS>
+			</CONDITIONS>
+		</ASSIGNMENT>		
+	</FACILITYTYPE>
+	<!-- New Facilities -->		
+	<FACILITYTYPE> 
+		<ubIndex>33</ubIndex>  
+		<szFacilityName>Combat Support Hospital</szFacilityName>  
+		<szFacilityShortName>Camp Hospital</szFacilityShortName>  
+		<ubTotalStaffLimit>2</ubTotalStaffLimit>  
+		<ASSIGNMENT> 
+			<ubAssignmentType>DOCTOR</ubAssignmentType>  
+			<szTooltipText>Perform urgent life-saving treatment on your wounded mercs in field conditions.  Staff#: 2, 150% Doctor effectiveness, Medkits lasts 40% longer, Req.: MED-60 WIS-60</szTooltipText>  
+			<ubStaffLimit>2</ubStaffLimit>  
+			<usPerformance>150</usPerformance>  
+			<usKitDegrade>60</usKitDegrade>  
+			<CONDITIONS> 
+				<ubMinimumMedical>60</ubMinimumMedical>  
+				<ubMinimumWisdom>60</ubMinimumWisdom>  
+			</CONDITIONS> 
+		</ASSIGNMENT> 
+	</FACILITYTYPE>
+	
+	<FACILITYTYPE>
+		<ubIndex>34</ubIndex>
+		<szFacilityName>Army Barracks Cantina</szFacilityName>
+		<szFacilityShortName>Cantina</szFacilityShortName>
+		<ubTotalStaffLimit>10</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>FACILITY_EAT</ubAssignmentType>
+			<szTooltipText>By taking over the armies barracks, you've also taken over the cantina inside. Your mercs can eat here.  Staff#: 10, Cost d/h: 480/20$, Food Modifier 1000, Chance of Morale increase and drunk effect</szTooltipText>
+			<ubStaffLimit>10</ubStaffLimit>
+			<sCostPerHour>20</sCostPerHour>
+			<sCantinaFoodModifier>1000</sCantinaFoodModifier>
+			<CONDITIONS>
+			</CONDITIONS>
+			<MORALE>
+				<usChance>500</usChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</MORALE>
+			<DRUNK>
+				<ubChance>400</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</DRUNK>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>35</ubIndex>
+		<szFacilityName>Freddo's Workshop</szFacilityName>
+		<szFacilityShortName>Workshop</szFacilityShortName>
+		<ubTotalStaffLimit>1</ubTotalStaffLimit>	
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_DEXTERITY</ubAssignmentType>
+			<szTooltipText>For a price Freddo is willing to teach you in repairs of fine electronics. The delicate work makes for a steadier hand. Staff#: 1, Cost d/h: 4320/180$, 200% Practice Dexterity effectiveness, 5% chance of MEC gain, Req.: DEX-40 WIS-50</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<sCostPerHour>180</sCostPerHour>
+			<usPerformance>300</usPerformance>
+			<CONDITIONS>
+				<ubMinimumDexterity>40</ubMinimumDexterity>
+				<ubMinimumWisdom>50</ubMinimumWisdom>
+			</CONDITIONS>
+			<MECHANICAL>
+				<ubChance>50</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</MECHANICAL>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+	
+	<FACILITYTYPE>
+		<ubIndex>36</ubIndex>
+		<szFacilityName>Arnie's Workshop</szFacilityName>
+		<szFacilityShortName>Workshop</szFacilityShortName>
+		<ubTotalStaffLimit>1</ubTotalStaffLimit>	
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_MECHANICAL</ubAssignmentType>
+			<szTooltipText>Arnie is willing to teach you in repair methods. He ask for a fee, though.  Staff#: 1, Cost d/h: 1320/55$, 200% Practice Mechanical effectiveness, 5% chance of DEX gain, Req.: MEC-40 WIS-50</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<sCostPerHour>55</sCostPerHour>
+			<usPerformance>200</usPerformance>
+			<CONDITIONS>
+				<ubMinimumMechanical>40</ubMinimumMechanical>
+				<ubMinimumWisdom>50</ubMinimumWisdom>
+			</CONDITIONS>
+			<DEXTERITY>
+				<ubChance>50</ubChance>
+				<bBaseEffect>1</bBaseEffect>
+				<ubRange>0</ubRange>
+			</DEXTERITY>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+	
+	<FACILITYTYPE>
+		<ubIndex>37</ubIndex>
+		<szFacilityName>Gas Station</szFacilityName>
+		<szFacilityShortName>Gas Station</szFacilityShortName>
+		<ubTotalStaffLimit>1</ubTotalStaffLimit>	
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Get this old gas station up and running. Arulco is in need of gas, and if you can supply it, the locals will pay for it.  Staff#: 1, Income d/h: 4800/200$ Req.: LDR-40 WIS-80</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<sCostPerHour>-200</sCostPerHour>
+			<CONDITIONS>
+				<ubMinimumLeadership>30</ubMinimumLeadership>
+				<ubMinimumWisdom>75</ubMinimumWisdom>
+			</CONDITIONS>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>38</ubIndex>
+		<szFacilityName>Military Warehouse</szFacilityName>
+		<szFacilityShortName>Warehouse</szFacilityShortName>
+		<ubTotalStaffLimit>1</ubTotalStaffLimit>	
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>You've found a huge warehouse full of military gear. An organized manager here can sell the army surplus to bring in some extra cash.  Staff#: 1, Income d/h: 2400/100$, Req.: LDR-40 WIS-80</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<sCostPerHour>-100</sCostPerHour>
+			<CONDITIONS>
+				<ubMinimumLeadership>30</ubMinimumLeadership>
+				<ubMinimumWisdom>75</ubMinimumWisdom>
+			</CONDITIONS>
+		</ASSIGNMENT>	
+	</FACILITYTYPE>
+
+	<FACILITYTYPE>
+		<ubIndex>39</ubIndex>
+		<szFacilityName>Satellite Scan - Limited</szFacilityName>
+		<szFacilityShortName>Limited Scan</szFacilityShortName>
+		<ubTotalStaffLimit>1</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Access limited satellite imaging. Detects enemies only in visited sectors and the number of city garrisons cannot be detected.  Staff#: 1 Cost/h: 8000$, Detects enemy patrols in visited sectors, Req.: LDR-80 WIS-80 LVL-6</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<sCostPerHour>8000</sCostPerHour>
+			<fDetectEnemiesLongrange>1</fDetectEnemiesLongrange>
+			<fCountEnemiesInWild>1</fCountEnemiesInWild>
+			<CONDITIONS>
+				<ubMinimumLeadership>80</ubMinimumLeadership>
+				<ubMinimumWisdom>80</ubMinimumWisdom>
+				<ubMinimumLevel>6</ubMinimumLevel>
+			</CONDITIONS>
+		</ASSIGNMENT>
+	</FACILITYTYPE>
+	
+	<FACILITYTYPE>
+		<ubIndex>40</ubIndex>
+		<szFacilityName>Satellite Scan - Full</szFacilityName>
+		<szFacilityShortName>Full Scan</szFacilityShortName>
+		<ubTotalStaffLimit>1</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>STAFF</ubAssignmentType>
+			<szTooltipText>Access full satellite imaging to detect enemies in all of Arulco. Infra-red and thermo imaging detects even well hidden enemies within cities.  Staff#: 1 Cost/h: 20000$, Detects exact enemy locations and numbers on the whole map, Req.: LDR-80 WIS-80 LVL-6</szTooltipText>
+			<ubStaffLimit>1</ubStaffLimit>
+			<sCostPerHour>20000</sCostPerHour>
+			<fDetectEnemiesAnywhere>1</fDetectEnemiesAnywhere>
+			<fCountEnemiesInWild>1</fCountEnemiesInWild>
+			<fCountEnemiesInCities>1</fCountEnemiesInCities>
+			<CONDITIONS>
+				<ubMinimumLeadership>80</ubMinimumLeadership>
+				<ubMinimumWisdom>80</ubMinimumWisdom>
+				<ubMinimumLevel>6</ubMinimumLevel>
+			</CONDITIONS>
+		</ASSIGNMENT>
+	</FACILITYTYPE>	
+	
+	<FACILITYTYPE>
+		<ubIndex>41</ubIndex>
+		<szFacilityName>T-Shirt Factory</szFacilityName>
+		<szFacilityShortName>Factory</szFacilityShortName>
+		<ubTotalStaffLimit>0</ubTotalStaffLimit>
+		<PRODUCTIONLINE>
+			<!-- create string -->
+			<szAdditionalRequirementTips> - Requires: Doreen quest</szAdditionalRequirementTips>
+			<usItemToCreate>311</usItemToCreate>
+			<sMinutesRequired>10</sMinutesRequired>
+			<sGridNo_Creation>11306</sGridNo_Creation>
+			<requires_staff>0</requires_staff>
+			<sHourlyCost>2</sHourlyCost>
+			<usOptional_LoyaltyRequired>15</usOptional_LoyaltyRequired>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create rag -->
+			<usItemToCreate>1022</usItemToCreate>
+			<sMinutesRequired>25</sMinutesRequired>
+			<sGridNo_Creation>11307</sGridNo_Creation>
+			<sHourlyCost>6</sHourlyCost>
+			<usOptional_LoyaltyRequired>15</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Surgical mask from string + rag -->
+			<usItemToCreate>1710</usItemToCreate>
+			<sMinutesRequired>35</sMinutesRequired>
+			<sGridNo_Creation>11309</sGridNo_Creation>
+			<sHourlyCost>4</sHourlyCost>			
+			<usOptional_LoyaltyRequired>15</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Arulco T-Shirt from string + rag (2x) -->
+			<usItemToCreate>194</usItemToCreate>
+			<sMinutesRequired>120</sMinutesRequired>
+			<sGridNo_Creation>12758</sGridNo_Creation>
+			<sHourlyCost>7</sHourlyCost>			
+			<usOptional_LoyaltyRequired>15</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Deidranna T-Shirt from string + rag (2x) -->
+			<usItemToCreate>195</usItemToCreate>
+			<sMinutesRequired>120</sMinutesRequired>
+			<sGridNo_Creation>12759</sGridNo_Creation>
+			<sHourlyCost>7</sHourlyCost>			
+			<usOptional_LoyaltyRequired>15</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create green T-Shirt from string + rag (2x) -->
+			<usItemToCreate>1609</usItemToCreate>
+			<sMinutesRequired>120</sMinutesRequired>
+			<sGridNo_Creation>12917</sGridNo_Creation>
+			<sHourlyCost>7</sHourlyCost>			
+			<usOptional_LoyaltyRequired>15</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- we have to build an upgrade before we can create uniforms -->
+			<szProductionName>Upgrade</szProductionName>
+			<sMinutesRequired>181</sMinutesRequired>
+			<sHourlyCost>100</sHourlyCost>			
+			<usOptional_LoyaltyRequired>15</usOptional_LoyaltyRequired>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Field uniform from string (3x) + rag (3x) -->
+			<szAdditionalRequirementTips> - Uniform requires upgrade</szAdditionalRequirementTips>
+			<usItemToCreate>284</usItemToCreate>
+			<sMinutesRequired>300</sMinutesRequired>
+			<sGridNo_Creation>11316</sGridNo_Creation>
+			<sHourlyCost>25</sHourlyCost>			
+			<usOptional_LoyaltyRequired>30</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- create Field uniform from green T-Shirt, string (2x) + rag -->
+			<usItemToCreate>284</usItemToCreate>
+			<sMinutesRequired>180</sMinutesRequired>
+			<sGridNo_Creation>11316</sGridNo_Creation>
+			<sHourlyCost>37</sHourlyCost>			
+			<usOptional_LoyaltyRequired>30</usOptional_LoyaltyRequired>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>311</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1022</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>1609</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+	</FACILITYTYPE>
+	
+	<FACILITYTYPE>
+		<ubIndex>42</ubIndex>
+		<szFacilityName>Hicks Farm</szFacilityName>
+		<szFacilityShortName>Farm</szFacilityShortName>
+		<ubTotalStaffLimit>0</ubTotalStaffLimit>
+		<PRODUCTIONLINE>
+			<!-- cow meat -->
+			<szAdditionalRequirementTips> - Requires: Hicks dead</szAdditionalRequirementTips>
+			<usItemToCreate>1565</usItemToCreate>
+			<sMinutesRequired>300</sMinutesRequired>
+			<sGridNo_Creation>15432</sGridNo_Creation>
+			<sHourlyCost>2</sHourlyCost>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- bread -->
+			<usItemToCreate>1567</usItemToCreate>
+			<sMinutesRequired>100</sMinutesRequired>
+			<sGridNo_Creation>15592</sGridNo_Creation>
+			<sHourlyCost>2</sHourlyCost>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- apple pie -->
+			<usItemToCreate>1568</usItemToCreate>
+			<sMinutesRequired>90</sMinutesRequired>
+			<sGridNo_Creation>15272</sGridNo_Creation>
+			<sHourlyCost>3</sHourlyCost>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- milk -->
+			<usItemToCreate>1572</usItemToCreate>
+			<sMinutesRequired>60</sMinutesRequired>
+			<sGridNo_Creation>15112</sGridNo_Creation>
+			<sHourlyCost>2</sHourlyCost>
+		</PRODUCTIONLINE>
+	</FACILITYTYPE>
+	
+	<FACILITYTYPE>
+		<ubIndex>43</ubIndex>
+		<szFacilityName>Bomb Workshop</szFacilityName>
+		<szFacilityShortName>Workshop</szFacilityShortName>
+		<ubTotalStaffLimit>2</ubTotalStaffLimit>
+		<ASSIGNMENT>
+			<ubAssignmentType>PRACTICE_EXPLOSIVES</ubAssignmentType>
+			<szTooltipText>This well-equipped workshop has the tools you need to create some makeshift bombs. Very dangerous, but it just might be worth it.</szTooltipText>
+			<ubStaffLimit>2</ubStaffLimit>
+			<usPerformance>150</usPerformance>
+			<CONDITIONS>
+				<ubMinimumExplosives>70</ubMinimumExplosives>
+				<ubMinimumMechanical>50</ubMinimumMechanical>
+			</CONDITIONS>
+			<INJURY>
+				<ubChance>50</ubChance>
+				<bBaseEffect>-5</bBaseEffect>
+				<ubRange>4</ubRange>
+			</INJURY>
+		</ASSIGNMENT>
+		<PRODUCTIONLINE>
+			<!-- 60mm Mortar Shell from TNT -->
+			<usItemToCreate>140</usItemToCreate>
+			<sMinutesRequired>60</sMinutesRequired>
+			<sGridNo_Creation>19101</sGridNo_Creation>
+			<requires_staff>1</requires_staff>
+			<usOptional_ItemUsedUp>137</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>137</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- 60mm Mortar Shell from Mk2 Grenades -->
+			<usItemToCreate>140</usItemToCreate>
+			<sMinutesRequired>60</sMinutesRequired>
+			<sGridNo_Creation>18941</sGridNo_Creation>
+			<requires_staff>1</requires_staff>
+			<usOptional_ItemUsedUp>135</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>135</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>135</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>135</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>135</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>135</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- 60mm Illumination Shell from Chemical Break Light -->
+			<usItemToCreate>940</usItemToCreate>
+			<sMinutesRequired>60</sMinutesRequired>
+			<sGridNo_Creation>18781</sGridNo_Creation>
+			<requires_staff>1</requires_staff>
+			<usOptional_ItemUsedUp>146</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>146</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>146</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>146</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>146</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>146</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- 60mm Smoke Shell from Smoke Grenade -->
+			<usItemToCreate>941</usItemToCreate>
+			<sMinutesRequired>60</sMinutesRequired>
+			<sGridNo_Creation>18461</sGridNo_Creation>
+			<requires_staff>1</requires_staff>
+			<usOptional_ItemUsedUp>151</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>151</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>151</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>151</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>151</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>151</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+		<PRODUCTIONLINE>
+			<!-- 60mm Mustard Gas Shell from Mustard Gas Grenade -->
+			<usItemToCreate>951</usItemToCreate>
+			<sMinutesRequired>60</sMinutesRequired>
+			<sGridNo_Creation>18141</sGridNo_Creation>
+			<requires_staff>1</requires_staff>
+			<usOptional_ItemUsedUp>133</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>133</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>133</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>133</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>133</usOptional_ItemUsedUp>
+			<usOptional_ItemUsedUp>133</usOptional_ItemUsedUp>
+		</PRODUCTIONLINE>
+	</FACILITYTYPE>
+	
+</FACILITYTYPES>
