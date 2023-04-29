@@ -19,4 +19,4 @@ However if you are looking for an extensive item mod with hundreds of new items 
 
 ## Wildfire
 
-Using Wildfire versions of the mod requires installation of standalone [Wildfire map mod frr v1.13](https://github.com/kitty624/JA2-v1.13-Wildfire-6.07-Map-Mod)
+Using Wildfire versions of the mod requires installation of standalone [Wildfire map mod for v1.13](https://github.com/kitty624/JA2-v1.13-Wildfire-6.07-Map-Mod)
