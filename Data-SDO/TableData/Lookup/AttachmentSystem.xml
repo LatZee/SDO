@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<JA2Data>
+  <AttachmentSystem>
+    <id>0</id>
+    <name>Any</name>
+  </AttachmentSystem>
+  <AttachmentSystem>
+    <id>1</id>
+    <name>OAS Only</name>
+  </AttachmentSystem>
+  <AttachmentSystem>
+    <id>2</id>
+    <name>NAS Only</name>
+  </AttachmentSystem>
+</JA2Data>

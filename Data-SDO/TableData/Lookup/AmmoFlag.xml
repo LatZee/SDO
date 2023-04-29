@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<JA2Data>
+  <AmmoFlag>
+    <id>0</id>
+    <name>None</name>
+  </AmmoFlag>
+  <AmmoFlag>
+    <id>1</id>
+    <name>Neurotoxin</name>
+  </AmmoFlag>
+  <AmmoFlag>
+    <id>2</id>
+    <name>Pepper Spray</name>
+  </AmmoFlag>
+</JA2Data>
