@@ -4,7 +4,7 @@
  
 Updated version of the mod for [Jagged Alliance 2 v1.13](https://github.com/1dot13)
 
-Original author: [http://thepit.ja-galaxy-forum.com/index.php?t=usrinfo&id=9689&]()
+Original author: [Strohmann](http://thepit.ja-galaxy-forum.com/index.php?t=usrinfo&id=9689&)
 
 
 ## About
