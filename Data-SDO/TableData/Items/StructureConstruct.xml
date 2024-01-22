@@ -1,6 +1,6 @@
 ﻿<STRUCTURESLIST>
 	<STRUCTURE><!--sandbags-->
-		<usCreationItem>1541</usCreationItem>
+		<usCreationItem>1540</usCreationItem>
 		<usItemStatusLoss>100</usItemStatusLoss>
 		<szTileSetName>sandbag.sti</szTileSetName>
 		<northfacingtile>3</northfacingtile>
