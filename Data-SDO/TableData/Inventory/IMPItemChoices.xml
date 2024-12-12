@@ -621,10 +621,10 @@
 		<name>Medical</name>
 		<ubChoices>10</ubChoices>
 		<ubNumItems>1</ubNumItems>
-		<bItemNo1>0</bItemNo1>
-		<bItemNo2>0</bItemNo2>
-		<bItemNo3>1022</bItemNo3>
-		<bItemNo4>1022</bItemNo4>
+		<bItemNo1>1764</bItemNo1>
+		<bItemNo2>1764</bItemNo2>
+		<bItemNo3>1764</bItemNo3>
+		<bItemNo4>1764</bItemNo4>
 		<bItemNo5>201</bItemNo5>
 		<bItemNo6>201</bItemNo6>
 		<bItemNo7>201</bItemNo7>
