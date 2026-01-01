@@ -1699,9 +1699,9 @@
 	<AMMOTYPE>
 		<uiIndex>41</uiIndex>
 		<name>JSP - Low Power</name>
-		<red>137</red>
-		<green>137</green>
-		<blue>137</blue>
+		<red>57</red>
+		<green>79</green>
+		<blue>225</blue>
 		<structureImpactReductionMultiplier>9</structureImpactReductionMultiplier>
 		<structureImpactReductionDivisor>5</structureImpactReductionDivisor>
 		<armourImpactReductionMultiplier>9</armourImpactReductionMultiplier>
